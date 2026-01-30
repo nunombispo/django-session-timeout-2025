@@ -30,7 +30,7 @@ class SessionTimeoutMiddleware(MiddlewareMixin):
             request.session.flush()
             redirect_url = getattr(settings, "SESSION_TIMEOUT_REDIRECT", None)
             if redirect_url:
-                return redirect(redirect_url)
+                return redirect(redirect_url, next=request.path)
             else:
                 return redirect_to_login(next=request.path)
 

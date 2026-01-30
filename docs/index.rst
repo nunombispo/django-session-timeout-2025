@@ -1,6 +1,6 @@
-===================
-django-session-timeout
-===================
+=============================
+django-session-timeout-2025
+=============================
 
 
 Installation
@@ -8,7 +8,7 @@ Installation
 
 .. code-block:: shell
 
-   pip install django_session_timeout
+   pip install django-session-timeout-2025
 
 Usage
 =====

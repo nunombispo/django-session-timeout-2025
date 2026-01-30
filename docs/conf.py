@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #
-# django-session-timeout documentation build configuration file, created by
+# django-session-timeout-2025 documentation build configuration file, created by
 # sphinx-quickstart on Wed Aug 10 17:06:14 2016.
 #
 # This file is execfile()d with the current directory set to its
@@ -48,7 +48,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'django-session-timeout'
+project = u'django-session-timeout-2025'
 copyright = u'Y, Michael van Tellingen'
 author = u'Michael van Tellingen'
 
@@ -127,7 +127,7 @@ html_theme = 'alabaster'
 html_theme_options = {
     'github_user': 'LabD',
     'github_banner': True,
-    'github_repo': 'django-session-timeout',
+    'github_repo': 'django-session-timeout-2025',
     'travis_button': True,
     'codecov_button': True,
     'analytics_id': 'UA-75907833-X',
@@ -139,7 +139,7 @@ html_theme_options = {
 # The name for this set of Sphinx documents.
 # "<project> v<release> documentation" by default.
 #
-# html_title = u'django-session-timeout v0.1.0'
+# html_title = u'django-session-timeout-2025 v0.1.0'
 
 # A shorter title for the navigation bar.  Default is the same as html_title.
 #
@@ -246,7 +246,7 @@ html_sidebars = {
 # html_search_scorer = 'scorer.js'
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'django_session_timeout-doc'
+htmlhelp_basename = 'django_session_timeout_2025-doc'
 
 # -- Options for LaTeX output ---------------------------------------------
 
@@ -272,7 +272,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'django_session_timeout.tex', u'django-session-timeout Documentation',
+    (master_doc, 'django_session_timeout_2025.tex', u'django-session-timeout-2025 Documentation',
      u'Michael van Tellingen', 'manual'),
 ]
 
@@ -314,7 +314,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'django_session_timeout', u'django-session-timeout Documentation',
+    (master_doc, 'django_session_timeout_2025', u'django-session-timeout-2025 Documentation',
      [author], 1)
 ]
 
@@ -329,8 +329,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'django_session_timeout', u'django-session-timeout Documentation',
-     author, 'django_session_timeout', 'One line description of project.',
+    (master_doc, 'django_session_timeout_2025', u'django-session-timeout-2025 Documentation',
+     author, 'django_session_timeout_2025', 'One line description of project.',
      'Miscellaneous'),
 ]
 

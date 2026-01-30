@@ -91,9 +91,9 @@ qthelp:
 	@echo
 	@echo "Build finished; now you can run "qcollectiongenerator" with the" \
 	      ".qhcp project file in $(BUILDDIR)/qthelp, like this:"
-	@echo "# qcollectiongenerator $(BUILDDIR)/qthelp/django_session_timeout.qhcp"
+	@echo "# qcollectiongenerator $(BUILDDIR)/qthelp/django_session_timeout_2025.qhcp"
 	@echo "To view the help file:"
-	@echo "# assistant -collectionFile $(BUILDDIR)/qthelp/django_session_timeout.qhc"
+	@echo "# assistant -collectionFile $(BUILDDIR)/qthelp/django_session_timeout_2025.qhc"
 
 .PHONY: applehelp
 applehelp:
@@ -110,8 +110,8 @@ devhelp:
 	@echo
 	@echo "Build finished."
 	@echo "To view the help file:"
-	@echo "# mkdir -p $$HOME/.local/share/devhelp/django_session_timeout"
-	@echo "# ln -s $(BUILDDIR)/devhelp $$HOME/.local/share/devhelp/django_session_timeout"
+	@echo "# mkdir -p $$HOME/.local/share/devhelp/django_session_timeout_2025"
+	@echo "# ln -s $(BUILDDIR)/devhelp $$HOME/.local/share/devhelp/django_session_timeout_2025"
 	@echo "# devhelp"
 
 .PHONY: epub

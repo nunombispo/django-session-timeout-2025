@@ -1,18 +1,20 @@
 <!-- start-no-pypi -->
-[![codecov](https://codecov.io/gh/labd/django-session-timeout/branch/master/graph/badge.svg)](https://codecov.io/gh/labd/django-session-timeout)
-[![pypi](https://img.shields.io/pypi/v/django-session-timeout.svg)](https://pypi.python.org/pypi/django-session-timeout/)
-[![readthedocs](https://readthedocs.org/projects/django-session-timeout/badge/)](https://django-session-timeout.readthedocs.io/en/latest/)
-[![tests](https://github.com/labd/django-session-timeout/workflows/Python%20Tests/badge.svg)](https://github.com/labd/django-session-timeout/actions)
+
+[![codecov](https://codecov.io/gh/labd/django-session-timeout-2025/branch/master/graph/badge.svg)](https://codecov.io/gh/labd/django-session-timeout-2025)
+[![pypi](https://img.shields.io/pypi/v/django-session-timeout-2025.svg)](https://pypi.python.org/pypi/django-session-timeout-2025/)
+[![readthedocs](https://readthedocs.org/projects/django-session-timeout-2025/badge/)](https://django-session-timeout-2025.readthedocs.io/en/latest/)
+[![tests](https://github.com/labd/django-session-timeout-2025/workflows/Python%20Tests/badge.svg)](https://github.com/labd/django-session-timeout-2025/actions)
+
 <!-- end-no-pypi -->
 
-# django-session-timeout
+# django-session-timeout-2025
 
 Add timestamp to sessions to expire them independently
 
 ## Installation
 
 ```shell
-pip install django-session-timeout
+pip install django-session-timeout-2025
 ```
 
 ## Usage
@@ -28,8 +30,7 @@ MIDDLEWARE_CLASSES = [
 ]
 ```
 
-And also add the ``SESSION_EXPIRE_SECONDS``:
-
+And also add the `SESSION_EXPIRE_SECONDS`:
 
 ```python
 SESSION_EXPIRE_SECONDS = 3600  # 1 hour
